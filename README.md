@@ -13,7 +13,7 @@ The modular version starts at `index.html`. It uses `style.css`, `data.js` and `
 ## What is included
 
 - Three learner roles and selectable Must Know, Nice to Know and Good to Know depth.
-- Twenty-one lessons with 105 teaching sections: ten core clinical rooms and an eleven-chapter PCNA masterclass.
+- Twenty-one lessons with 105 teaching sections: ten core clinical rooms and an eleven-room Clinical Systems Masterclass.
 - Four fictional patient journeys with 12 clinical decisions.
 - 138 authored questions overall, including five evaluated questions in every room, baseline, cases and role-specific final practice.
 - Answer explanations, confidence ratings, retries and a personal learning record.
@@ -26,7 +26,7 @@ First-attempt performance is retained separately from corrected practice. Progre
 
 - [Facilitator guide](IEM_MOOC_Facilitator_Guide.md): suggested teaching sequence, assessment interpretation and review needs.
 - [Source strategy](IEM_MOOC_Source_Strategy.md): the initial evidence and curriculum blueprint.
-- [Evidence and content matrix](IEM_MOOC_Evidence_and_Content_Matrix.xlsx): the initial planning workbook. The course's Evidence & course notes section contains the expanded 45-record library.
+- [Evidence and content matrix](IEM_MOOC_Evidence_and_Content_Matrix.xlsx): the initial planning workbook. The course's Evidence & course notes section contains the expanded 56-record library.
 
 ## Editing
 
@@ -34,6 +34,6 @@ Edit teaching content in `data.js`, interactions in `course.js` and presentation
 
 ## Educational status
 
-Edition 2.1, September 2026. This is an educational review edition awaiting independent clinical review and learner piloting. It provides no accreditation or certification of independent clinical competence. Clinical treatment and specimen procedures require current local protocols, receiving-laboratory instructions and specialist advice.
+Edition 2.2, September 2026. This is an educational review edition awaiting independent clinical review and learner piloting. It provides no accreditation or certification of independent clinical competence. Clinical treatment and specimen procedures require current local protocols, receiving-laboratory instructions and specialist advice.
 
 The cases and explanations are original educational material. Linked third-party resources retain their own copyright and access conditions; links do not grant permission to reproduce them. No reuse licence has been selected for this repository.
