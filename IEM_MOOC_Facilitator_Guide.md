@@ -4,7 +4,7 @@ Facilitator guide • Educational edition 1.0 • September 2026
 
 ## What this module contains
 
-Ten complete text lessons, 50 depth-tagged teaching sections, four fictional patient journeys with three decisions each, a three-question baseline, ten room checks and a role-specific final practice set. The final set contains six questions for UGs, 12 for PGs and 18 for faculty. Every question includes explanatory feedback. The course also contains a faculty pathway-writing exercise, personal reflections, eight printable study aids and a linked evidence library.
+Ten complete text lessons, 50 depth-tagged teaching sections, four fictional patient journeys with three decisions each, a three-question baseline, five-question evaluation in every room and a role-specific final practice set. The course contains 83 authored questions overall. The final set contains six questions for UGs, 12 for PGs and 18 for faculty. Every question includes explanatory feedback and confidence recording. The course also contains a faculty pathway-writing exercise, personal reflections, eight printable study aids and a linked evidence library.
 
 This is an interactive educational edition. It has not undergone independent metabolic-specialist approval, learner-pilot validation or accreditation. It has no recorded video/audio lectures, live teaching, cloud learner accounts or institutional gradebook. Browser-local progress and downloadable records support individual study. It is suitable for review and piloting before wider curricular deployment.
 
@@ -36,7 +36,7 @@ The room estimates are planning estimates, not measured completion times. Pilot 
 
 First-attempt correctness is retained. A corrected answer is labelled as current practice after feedback and does not overwrite the first attempt. An incorrect case decision must be revisited before the next stage opens. This is deliberate practice with feedback; it is not a high-stakes examination.
 
-A room is complete when its required explanations have been self-checked and its question corrected. Final practice is complete when all questions in the selected role's set have been corrected. There is no validated pass score, professional certificate or automatic claim of competence. The learning record separates self-report, first attempts and corrected practice.
+A room is complete when its required explanations have been self-checked and all five evaluation questions have been corrected. Final practice is complete when all questions in the selected role's set have been corrected. There is no validated pass score, professional certificate or automatic claim of competence. The learning record separates self-report, first attempts and corrected practice.
 
 Review confidently wrong answers with learners. Ask what led to the error and what observation would change their mind. The baseline and final sets differ, so a numerical difference is not a validated estimate of learning gain.
 

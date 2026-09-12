@@ -4,6 +4,8 @@ An interactive learning module on approaching a child with an inborn error of me
 
 ## Start learning
 
+[Open the public learner module](https://vikramsakaleshpurkumar-byte.github.io/Vikkypaedia-Metabolic-Child-MOOC/)
+
 Download this repository with **Code → Download ZIP**, extract it, and open **offline.html** in a modern browser. The complete course runs offline; reference links need internet access.
 
 The modular version starts at `index.html`. It uses `style.css`, `data.js` and `course.js` from the same directory. No installation, build step, API key or account is needed. Any static web server can serve these files.
@@ -13,7 +15,7 @@ The modular version starts at `index.html`. It uses `style.css`, `data.js` and `
 - Three learner roles and selectable Must Know, Nice to Know and Good to Know depth.
 - Ten lessons with 50 teaching sections.
 - Four fictional patient journeys with 12 clinical decisions.
-- 43 questions across baseline, lesson checks, cases and role-specific final practice.
+- 83 authored questions overall, including five evaluated questions in every room, baseline, cases and role-specific final practice.
 - Answer explanations, confidence ratings, retries and a personal learning record.
 - A faculty pathway-writing workshop and downloadable study guides.
 - 45 annotated source records within the course.
