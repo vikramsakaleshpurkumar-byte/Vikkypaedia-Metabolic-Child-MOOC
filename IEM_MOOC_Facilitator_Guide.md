@@ -1,10 +1,10 @@
 # The Metabolic Child
 
-Facilitator guide • Educational edition 1.0 • September 2026
+Facilitator guide • Educational edition 2.1 • September 2026
 
 ## What this module contains
 
-Ten complete text lessons, 50 depth-tagged teaching sections, four fictional patient journeys with three decisions each, a three-question baseline, five-question evaluation in every room and a role-specific final practice set. The course contains 83 authored questions overall. The final set contains six questions for UGs, 12 for PGs and 18 for faculty. Every question includes explanatory feedback and confidence recording. The course also contains a faculty pathway-writing exercise, personal reflections, eight printable study aids and a linked evidence library.
+Twenty-one complete text lessons, 105 depth-tagged teaching sections, four fictional patient journeys with three decisions each, a three-question baseline, five-question evaluation in every room and a role-specific final practice set. Rooms 1–10 teach the core clinical approach. Rooms 11–21 form a chapter-matched masterclass based on the supplied 2018 *Pediatric Clinics of North America* IEM issue. The course contains 138 authored questions overall. The final set contains six questions for UGs, 12 for PGs and 18 for faculty. Every question includes explanatory feedback and confidence recording. The course also contains a faculty pathway-writing exercise, personal reflections, eight printable study aids and a linked evidence library.
 
 This is an interactive educational edition. It has not undergone independent metabolic-specialist approval, learner-pilot validation or accreditation. It has no recorded video/audio lectures, live teaching, cloud learner accounts or institutional gradebook. Browser-local progress and downloadable records support individual study. It is suitable for review and piloting before wider curricular deployment.
 
@@ -26,9 +26,10 @@ Must Know means required for the chosen role. Nice to Know extends reasoning. Go
 2. Use rooms 1–5 for recognition, the sick neonate, patterns, initial priorities and specimens.
 3. Work through Aarav and Meera. Ask learners to explain the decision before selecting it.
 4. Use rooms 6–10 for confirmation, later presentations, continuing care, screening/counselling and Indian pathways.
-5. Work through Kabir and Sana, then complete final practice for the chosen role.
-6. Faculty draft a local pathway, self-review it against the rubric, and discuss it with clinical, laboratory, dietetic and referral teams.
-7. Invite a delayed return to the cases and a new supervised discussion. The current module does not schedule reminders or provide a second independently validated examination bank.
+5. Use rooms 11–21 as the PCNA chapter masterclass: overview, acidosis, hyperammonaemia, hypoglycaemia, cognitive impairment, seizures, movement disorders, myopathy/FAOD, hepatopathy, lysosomal/peroxisomal disease and CDG–mitochondrial overlap.
+6. Work through Kabir and Sana, then complete final practice for the chosen role.
+7. Faculty draft a local pathway, self-review it against the rubric, and discuss it with clinical, laboratory, dietetic and referral teams.
+8. Invite a delayed return to the cases and a new supervised discussion. The current module does not schedule reminders or provide a second independently validated examination bank.
 
 The room estimates are planning estimates, not measured completion times. Pilot actual time by role and depth. Allow extra time for case discussion, reflections and the faculty task.
 
@@ -56,4 +57,4 @@ Record reviewer comments, resulting changes, a content owner and review date. Re
 
 The supplied HTML file contains the complete text course and interactions without external libraries. Open it in a modern browser. Linked sources need internet access. Browser storage behaviour varies, particularly for local files and private browsing. Download reflections and pathway drafts before moving browsers or devices. The selected study guide can be saved as HTML and printed or saved as PDF through the browser.
 
-The hosted course is initially owner-private. A public cohort, institutional LMS integration, SCORM packaging, account-based progress and accredited assessment require a separate distribution and learning-management decision.
+The public GitHub Pages edition supports open learner access. Institutional LMS integration, SCORM packaging, account-based progress and accredited assessment require a separate distribution and learning-management decision.
