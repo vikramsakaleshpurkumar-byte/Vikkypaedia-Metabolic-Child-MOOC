@@ -1,10 +1,10 @@
 {
   "format": "vikkypaedia-completion-record",
-  "formatVersion": 1,
+  "formatVersion": 2,
   "module": {
     "id": "metabolic",
     "title": "The Metabolic Child",
-    "version": "3.0.0",
+    "version": "3.0.1",
     "build": "2026-09-24"
   },
   "learner": {
@@ -15,8 +15,8 @@
     "track": "Advanced",
     "setting": "rc"
   },
-  "enrolledAt": 1790246945983,
-  "issuedAt": 1790246950756,
+  "enrolledAt": 1790264068033,
+  "issuedAt": 1790264073555,
   "result": {
     "unitsMastered": 20,
     "unitsTotal": 20,
@@ -34,8 +34,318 @@
     "name": "Dr Vikram Sakaleshpur Kumar",
     "role": "Medical Educator"
   },
-  "verificationCode": "MC26-0KRN-WGT",
+  "verificationCode": "MC26-0KHO-ARU",
   "attestation": "Self-attested. Generated on the learner's own device from local progress data. Re-derivable, not tamper-proof: treat it as a signed statement by the learner, not as proof issued by a third party.",
   "scope": "Not a specialist qualification. Confers no competence to manage inborn errors of metabolism independently, no licence and no clinical privilege.",
-  "checksum": "1UPLNUX"
+  "checksum": "0NILX9K",
+  "detail": {
+    "units": [
+      {
+        "n": 1,
+        "part": "A",
+        "title": "Could this be metabolic?",
+        "status": "mastered",
+        "items": 2,
+        "ok": 2,
+        "firstSeen": 0,
+        "firstRight": 0,
+        "misses": 0,
+        "hinted": 0,
+        "cw": 0,
+        "retained": true
+      },
+      {
+        "n": 2,
+        "part": "A",
+        "title": "The sick neonate",
+        "status": "mastered",
+        "items": 2,
+        "ok": 2,
+        "firstSeen": 0,
+        "firstRight": 0,
+        "misses": 0,
+        "hinted": 0,
+        "cw": 0,
+        "retained": true
+      },
+      {
+        "n": 3,
+        "part": "A",
+        "title": "Read the metabolic pattern",
+        "status": "mastered",
+        "items": 2,
+        "ok": 2,
+        "firstSeen": 0,
+        "firstRight": 0,
+        "misses": 0,
+        "hinted": 0,
+        "cw": 0,
+        "retained": true
+      },
+      {
+        "n": 4,
+        "part": "B",
+        "title": "The first hour",
+        "status": "mastered",
+        "items": 2,
+        "ok": 2,
+        "firstSeen": 0,
+        "firstRight": 0,
+        "misses": 0,
+        "hinted": 0,
+        "cw": 0,
+        "retained": true
+      },
+      {
+        "n": 5,
+        "part": "B",
+        "title": "Send the right sample",
+        "status": "mastered",
+        "items": 2,
+        "ok": 2,
+        "firstSeen": 0,
+        "firstRight": 0,
+        "misses": 0,
+        "hinted": 0,
+        "cw": 0,
+        "retained": true
+      },
+      {
+        "n": 6,
+        "part": "B",
+        "title": "Hyperammonaemia",
+        "status": "mastered",
+        "items": 2,
+        "ok": 2,
+        "firstSeen": 0,
+        "firstRight": 0,
+        "misses": 0,
+        "hinted": 0,
+        "cw": 0,
+        "retained": true
+      },
+      {
+        "n": 7,
+        "part": "B",
+        "title": "Acidosis and the organic acidaemias",
+        "status": "mastered",
+        "items": 2,
+        "ok": 2,
+        "firstSeen": 0,
+        "firstRight": 0,
+        "misses": 0,
+        "hinted": 0,
+        "cw": 0,
+        "retained": true
+      },
+      {
+        "n": 8,
+        "part": "B",
+        "title": "Hypoglycaemia",
+        "status": "mastered",
+        "items": 2,
+        "ok": 2,
+        "firstSeen": 0,
+        "firstRight": 0,
+        "misses": 0,
+        "hinted": 0,
+        "cw": 0,
+        "retained": true
+      },
+      {
+        "n": 9,
+        "part": "C",
+        "title": "Muscle, heart and fatty-acid oxidation",
+        "status": "mastered",
+        "items": 2,
+        "ok": 2,
+        "firstSeen": 0,
+        "firstRight": 0,
+        "misses": 0,
+        "hinted": 0,
+        "cw": 0,
+        "retained": true
+      },
+      {
+        "n": 10,
+        "part": "C",
+        "title": "The liver",
+        "status": "mastered",
+        "items": 2,
+        "ok": 2,
+        "firstSeen": 0,
+        "firstRight": 0,
+        "misses": 0,
+        "hinted": 0,
+        "cw": 0,
+        "retained": true
+      },
+      {
+        "n": 11,
+        "part": "C",
+        "title": "Seizures",
+        "status": "mastered",
+        "items": 2,
+        "ok": 2,
+        "firstSeen": 0,
+        "firstRight": 0,
+        "misses": 0,
+        "hinted": 0,
+        "cw": 0,
+        "retained": true
+      },
+      {
+        "n": 12,
+        "part": "C",
+        "title": "Movement disorders",
+        "status": "mastered",
+        "items": 2,
+        "ok": 2,
+        "firstSeen": 0,
+        "firstRight": 0,
+        "misses": 0,
+        "hinted": 0,
+        "cw": 0,
+        "retained": true
+      },
+      {
+        "n": 13,
+        "part": "C",
+        "title": "Developmental delay and regression",
+        "status": "mastered",
+        "items": 2,
+        "ok": 2,
+        "firstSeen": 0,
+        "firstRight": 0,
+        "misses": 0,
+        "hinted": 0,
+        "cw": 0,
+        "retained": true
+      },
+      {
+        "n": 14,
+        "part": "D",
+        "title": "From phenotype to diagnosis",
+        "status": "mastered",
+        "items": 2,
+        "ok": 2,
+        "firstSeen": 0,
+        "firstRight": 0,
+        "misses": 0,
+        "hinted": 0,
+        "cw": 0,
+        "retained": true
+      },
+      {
+        "n": 15,
+        "part": "D",
+        "title": "Lysosomal and peroxisomal disorders",
+        "status": "mastered",
+        "items": 2,
+        "ok": 2,
+        "firstSeen": 0,
+        "firstRight": 0,
+        "misses": 0,
+        "hinted": 0,
+        "cw": 0,
+        "retained": true
+      },
+      {
+        "n": 16,
+        "part": "D",
+        "title": "Mitochondrial disease and glycosylation disorders",
+        "status": "mastered",
+        "items": 2,
+        "ok": 2,
+        "firstSeen": 0,
+        "firstRight": 0,
+        "misses": 0,
+        "hinted": 0,
+        "cw": 0,
+        "retained": true
+      },
+      {
+        "n": 17,
+        "part": "D",
+        "title": "Newborn screening and the next pregnancy",
+        "status": "mastered",
+        "items": 2,
+        "ok": 2,
+        "firstSeen": 0,
+        "firstRight": 0,
+        "misses": 0,
+        "hinted": 0,
+        "cw": 0,
+        "retained": true
+      },
+      {
+        "n": 18,
+        "part": "E",
+        "title": "Living with a diagnosis",
+        "status": "mastered",
+        "items": 2,
+        "ok": 2,
+        "firstSeen": 0,
+        "firstRight": 0,
+        "misses": 0,
+        "hinted": 0,
+        "cw": 0,
+        "retained": true
+      },
+      {
+        "n": 19,
+        "part": "E",
+        "title": "IEM care in India",
+        "status": "mastered",
+        "items": 2,
+        "ok": 2,
+        "firstSeen": 0,
+        "firstRight": 0,
+        "misses": 0,
+        "hinted": 0,
+        "cw": 0,
+        "retained": true
+      },
+      {
+        "n": 20,
+        "part": "E",
+        "title": "Capstone: follow the child",
+        "status": "mastered",
+        "items": 2,
+        "ok": 2,
+        "firstSeen": 0,
+        "firstRight": 0,
+        "misses": 0,
+        "hinted": 0,
+        "cw": 0,
+        "retained": true
+      }
+    ],
+    "calibration": {
+      "sure": [
+        0,
+        0
+      ],
+      "fairly": [
+        0,
+        0
+      ],
+      "guessing": [
+        0,
+        0
+      ]
+    },
+    "exam": [
+      {
+        "at": 1790264072209,
+        "pct": 96,
+        "n": 50,
+        "timedOut": false,
+        "critMiss": 0,
+        "miss": {}
+      }
+    ],
+    "studyDays": 0
+  },
+  "detailChecksum": "0WMPEKU"
 }
