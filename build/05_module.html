@@ -1,0 +1,51 @@
+<script>
+/* Module configuration — the only engine-facing file that changes between Vikkypaedia modules. */
+window.VKP_MODULE = {
+  id: "metabolic",
+  slug: "metabolic",
+  title: "The Metabolic Child",
+  version: "3.0.0",
+  build: "2026-09-24",
+  storeKey: "vkp.metabolic.v3",
+  legacyKeys: ["metabolic-child-v1"],
+  codePrefix: "MC26",
+  safetyGate: false,
+  parts: [
+    { key:"A", units:[1,2,3] },
+    { key:"B", units:[4,5,6,7,8] },
+    { key:"C", units:[9,10,11,12,13] },
+    { key:"D", units:[14,15,16,17] },
+    { key:"E", units:[18,19,20] }
+  ],
+  defaults: {
+    cut: 80,            // per cent — PROVISIONAL, set by faculty using Appendix C before consequential use
+    items: 50,
+    minutes: 75,
+    attempts: 2,
+    lockHours: 24,
+    retainUnits: 15     // of 20 units must show ≥24 h retention (75%)
+  },
+  alignedTo: "aligned to BIMDG emergency guidance, the international urea cycle disorder guideline, GeneReviews and IAP–NNF guidance on inborn errors of metabolism",
+  certScopeLines: [
+    "This certificate attests knowledge and clinical reasoning demonstrated by written assessment in a self-paced module. It does not attest competence to",
+    "diagnose or manage inborn errors of metabolism independently, confers no licence or clinical privilege, and is not a substitute for supervised",
+    "training with a metabolic team. It is not endorsed by BIMDG, IAP, NNF or any other body. No CME credit unless separately accredited.",
+    "The verification code is deterministically re-derivable from the displayed figures — it is not tamper-proof."
+  ],
+  recordNote: "Not a specialist qualification. Confers no competence to manage inborn errors of metabolism independently, no licence and no clinical privilege.",
+  scopes: {
+    e: { label:"Parts A–B · 8 units", hours:11 },
+    a: { label:"Parts A–D · 17 units", hours:24 },
+    x: { label:"All 20 units + appendices", hours:28 }
+  },
+  placement: {
+    paths: {
+      many: "You manage sick neonates and children routinely, so <b>clear Parts A and B by challenge</b>: open each unit, go straight to the two checkpoint questions and answer them cold. Pass both and the unit is mastered; miss one and read the unit &mdash; that miss is the gap worth finding.",
+      some: "Read Part A quickly, then slow down in <b>Part B</b>. The first hour &mdash; glucose, ammonia, the critical sample, the call to the metabolic team &mdash; is where outcomes are decided and where partly-experienced teams most often lose time.",
+      none: "Work through in order and do not rush Part A. Recognising that a sick child <i>might</i> be metabolic is the skill every later unit depends on. Aim for <b>one unit per sitting</b>."
+    },
+    trackRc: "Your clinical panels now default to the <b>resource-constrained track</b> &mdash; no on-site ammonia assay at night, samples sent by courier, the nearest metabolic centre hours away. Switch to &lsquo;Both tracks&rsquo; whenever you want to compare with a tertiary centre.",
+    trackIdeal: "Your clinical panels default to the <b>ideal-setting track</b>. Read the resource-constrained panels at least once: you will refer to, receive from or teach in those settings."
+  }
+};
+</script>

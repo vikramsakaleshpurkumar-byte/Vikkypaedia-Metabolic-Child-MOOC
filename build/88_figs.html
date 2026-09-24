@@ -1,0 +1,39 @@
+<script>
+/* ------------------------------------------------------------------
+   Figure specs. Rendered to inline SVG by figSVG() in the engine.
+   Kinds: band | ask | step | good | warn | crit | note
+   A node with side:1 hangs off node `from` in the right column.
+   `edge` labels the arrow that arrives at the node.
+   ------------------------------------------------------------------ */
+var FIGS = {
+
+"pattern": {
+  w: 780, main: 450, side: 290,
+  nodes: [
+    {id:"top", k:"band", t:"SICK CHILD · SEND FIVE RESULTS TOGETHER", l:["Glucose · ketones · gas with anion gap · lactate · ammonia"]},
+    {id:"nh3", k:"ask", t:"Ammonia high?", l:["Read it with the gas","Repeat a doubtful sample at once"]},
+    {id:"ucd", k:"crit", side:1, from:"nh3", t:"No acidosis → urea cycle disorder", l:["Respiratory alkalosis common","Acidosis + ketones → organic acidaemia"]},
+    {id:"acid", k:"ask", edge:"NO", t:"Raised-gap metabolic acidosis?", l:["Na − (Cl + HCO₃) above range","Check ketones and lactate"]},
+    {id:"oa", k:"warn", side:1, from:"acid", t:"Ketones → organic acidaemia, MSUD", l:["High lactate → mitochondrial, PDH, GSD I","Also sepsis, shock, poisoning"]},
+    {id:"glu", k:"ask", edge:"NO", t:"Glucose low?"},
+    {id:"lowk", k:"step", edge:"YES", t:"Ketones LOW", l:["Fatty-acid oxidation disorder","Hyperinsulinism"]},
+    {id:"highk", k:"note", side:1, from:"lowk", t:"Ketones HIGH", l:["Ketotic hypoglycaemia · hormone deficiency","GSD 0, III, VI, IX"]}
+  ]
+},
+
+"firsthour": {
+  w: 780, main: 450, side: 290,
+  nodes: [
+    {id:"rec", k:"band", t:"SLEEPY NEWBORN AFTER A WELL INTERVAL", l:["Check ammonia now, alongside the sepsis screen"]},
+    {id:"stop", k:"step", t:"Stop protein and milk feeds", l:["For 24–48 h at most; the metabolic team restarts protein"]},
+    {id:"glu", k:"step", t:"10% glucose", l:["2 mL/kg, then infusion (e.g. 5 mL/kg/h in a baby)","Insulin if hyperglycaemic"]},
+    {id:"samp", k:"note", side:1, from:"glu", t:"Critical sample", l:["Plasma + urine stored","Label time and prior treatment"]},
+    {id:"scav", k:"warn", t:"Scavengers per protocol", l:["Sodium benzoate ± phenylbutyrate","Arginine · consider carglumic acid"]},
+    {id:"call", k:"step", t:"Call metabolic team + PICU", l:["Transfer early to a dialysis-capable centre"]},
+    {id:"q", k:"ask", t:"Ammonia falling within ~3 h?"},
+    {id:"dial", k:"crit", edge:"NO", t:"Haemofiltration or dialysis now", l:["Continue glucose and scavengers"]}
+  ]
+}
+
+};
+</script>

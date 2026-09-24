@@ -1,0 +1,166 @@
+<script>
+/* ============================================================================
+   Fresh integrative items for the final assessment only.
+   These do NOT appear as unit checkpoints. Each crosses two or more units.
+   ========================================================================= */
+window.EXAM_ITEMS = (function(){
+function I(id, unit, stem, opts, rationale){
+  return { id:id, unit:unit, source:"fresh", stem:stem,
+           opts: opts.map(function(o){ return { html:o[0], correct:!!o[1] }; }),
+           rationale: rationale };
+}
+return [
+
+I("X01", 2,
+ "A 3-day-old became sleepy after feeding well for 2 days. Blood culture is sent and antibiotics started. Which additional test is most time-critical?",
+ [["Thyroid function.", 0], ["Plasma ammonia.", 1], ["Chromosomal microarray.", 0], ["Urine culture.", 0]],
+ "<h6>Why</h6><p>A well interval followed by encephalopathy is the intoxication pattern. Ammonia changes management within the hour and must be sent alongside the sepsis work-up. (Units 1, 2, 6)</p>"),
+
+I("X02", 3,
+ "Sodium 138, chloride 100 and bicarbonate 10 mmol/L. What is the anion gap and what does it suggest?",
+ [["18 mmol/L; normal-gap acidosis from diarrhoea.", 0], ["28 mmol/L; raised-gap acidosis from unmeasured acids.", 1], ["38 mmol/L; laboratory error.", 0], ["8 mmol/L; normal.", 0]],
+ "<h6>Why</h6><p>138 − (100 + 10) = 28 mmol/L, a raised gap: think lactate, ketones, organic acids, toxins or renal failure. (Units 3, 7)</p>"),
+
+I("X03", 4,
+ "A newborn with suspected organic acidaemia is receiving 10% glucose, but blood glucose has risen to 16 mmol/L. What is the preferred adjustment?",
+ [["Stop glucose and give saline.", 0], ["Keep the glucose supply and add insulin under specialist guidance.", 1], ["Start milk feeds.", 0], ["Start IV lipid instead of glucose.", 0]],
+ "<h6>Why</h6><p>Reducing glucose restarts catabolism. The metabolic team usually adds insulin to allow the high glucose intake to continue. Lipid is not given until FAOD is excluded. (Units 4, 7)</p>"),
+
+I("X04", 5,
+ "Which sample is most likely to be falsely normal if taken 24 hours after starting IV glucose in a child with MCAD deficiency?",
+ [["Serum sodium.", 0], ["Blood acylcarnitine profile.", 1], ["Haemoglobin.", 0], ["Blood culture.", 0]],
+ "<h6>Why</h6><p>Diagnostic metabolite patterns can fade after treatment. The critical sample during the episode is the one most likely to be diagnostic. (Units 5, 8, 9)</p>"),
+
+I("X05", 6,
+ "According to the BIMDG undiagnosed-hyperammonaemia guideline, above what ammonia level should transfer to a specialist centre be arranged?",
+ [["50 µmol/L.", 0], ["100 µmol/L.", 0], ["250 µmol/L.", 1], ["1000 µmol/L.", 0]],
+ "<h6>Why</h6><p>BIMDG (2016): repeat if above 150 µmol/L in a child or above 200 µmol/L in a neonate; above 200 needs urgent attention; above 250, arrange transfer. (Unit 6)</p>"),
+
+I("X06", 6,
+ "Which drug should NOT be given in the emergency treatment of arginase deficiency?",
+ [["Glucose.", 0], ["Arginine.", 1], ["Sodium benzoate.", 0], ["Sodium phenylbutyrate.", 0]],
+ "<h6>Why</h6><p>Arginine is part of emergency treatment in most urea cycle disorders but is withheld in arginase deficiency, where arginine is already high. (Units 6, 18)</p>"),
+
+I("X07", 6,
+ "Which method removes ammonia fastest in a neonate with severe hyperammonaemia?",
+ [["Exchange transfusion.", 0], ["Peritoneal dialysis.", 0], ["High-dose continuous kidney replacement therapy or haemodialysis.", 1], ["Oral lactulose.", 0]],
+ "<h6>Why</h6><p>High-dose CKRT or haemodialysis clears ammonia fastest. Peritoneal dialysis is slow; exchange transfusion is ineffective; lactulose is for liver disease. (Units 6, 20)</p>"),
+
+I("X08", 7,
+ "A newborn with ketoacidosis, hyperammonaemia and neutropenia has a 'sweaty feet' odour. Which disorder is most likely?",
+ [["Isovaleric acidaemia.", 1], ["MSUD.", 0], ["PKU.", 0], ["OTC deficiency.", 0]],
+ "<h6>Why</h6><p>Isovaleric acidaemia is an organic acidaemia with a characteristic odour (often absent). MSUD smells of maple syrup and usually lacks marked hyperammonaemia. (Units 3, 7)</p>"),
+
+I("X09", 7,
+ "A 5-day-old with raised methylmalonic acid is started on emergency treatment. Which vitamin is given to test responsiveness?",
+ [["Vitamin D.", 0], ["Hydroxocobalamin (vitamin B12).", 1], ["Vitamin K only.", 0], ["Vitamin A.", 0]],
+ "<h6>Why</h6><p>Some forms of MMA respond to vitamin B12. A hydroxocobalamin trial (e.g. 1 mg IM daily) is given under the metabolic team; maternal B12 deficiency must also be excluded. (Units 7, 14)</p>"),
+
+I("X10", 8,
+ "A child's critical sample during hypoglycaemia shows low ketones, low free fatty acids and detectable insulin. Which diagnosis fits best?",
+ [["MCAD deficiency.", 0], ["Hyperinsulinism.", 1], ["Ketotic hypoglycaemia.", 0], ["Growth hormone deficiency.", 0]],
+ "<h6>Why</h6><p>Insulin suppresses fat breakdown, so both free fatty acids and ketones are low. In FAODs free fatty acids are high but ketones low. (Units 3, 8)</p>"),
+
+I("X11", 8,
+ "A 2-year-old with MCAD deficiency has gastroenteritis and has vomited all her emergency glucose drinks for 4 hours. She is alert. What should her family do?",
+ [["Continue trying the drinks at home overnight.", 0], ["Go to hospital now for IV glucose.", 1], ["Stop all fluids.", 0], ["Give ORS and wait 12 hours.", 0]],
+ "<h6>Why</h6><p>Vomiting the emergency regimen means it is not working. Children with MCAD deficiency can deteriorate suddenly; they need IV glucose before drowsiness develops. (Units 8, 18)</p>"),
+
+I("X12", 9,
+ "Why should IV lipid emulsion be avoided in a child with suspected long-chain fatty-acid oxidation disorder?",
+ [["It causes hypoglycaemia directly.", 0], ["The child cannot oxidise long-chain fats, so it adds load without providing usable energy.", 1], ["It raises ammonia.", 0], ["It causes lactose intolerance.", 0]],
+ "<h6>Why</h6><p>Long-chain FAODs block the use of long-chain fatty acids. Glucose is the fuel; lipid is avoided until the diagnosis is clear. (Units 4, 9)</p>"),
+
+I("X13", 9,
+ "A pregnant woman developed acute fatty liver of pregnancy. Her baby later has hypoglycaemia and cardiomyopathy. Which disorder should be considered in the baby?",
+ [["Galactosaemia.", 0], ["LCHAD deficiency.", 1], ["PKU.", 0], ["Wilson disease.", 0]],
+ "<h6>Why</h6><p>Maternal acute fatty liver of pregnancy or HELLP syndrome is associated with fetal LCHAD deficiency. (Unit 9)</p>"),
+
+I("X14", 10,
+ "Which test for galactosaemia is unreliable in the weeks after a red cell transfusion?",
+ [["Liver function tests.", 0], ["GALT enzyme activity in red cells.", 1], ["Genetic testing.", 0], ["Blood culture.", 0]],
+ "<h6>Why</h6><p>Donor red cells carry normal GALT activity and can give a falsely normal result. Store a pre-transfusion sample or use genetic testing. (Units 5, 10)</p>"),
+
+I("X15", 10,
+ "Which marker is key for diagnosing tyrosinaemia type I?",
+ [["Plasma tyrosine alone.", 0], ["Succinylacetone.", 1], ["Urine orotic acid.", 0], ["Ammonia.", 0]],
+ "<h6>Why</h6><p>Succinylacetone in blood or urine is diagnostic; raised tyrosine alone is not specific. Nitisinone treatment changes prognosis. (Unit 10)</p>"),
+
+I("X16", 11,
+ "What is the main safety concern when giving the first IV dose of pyridoxine to an infant with refractory seizures?",
+ [["Hypoglycaemia.", 0], ["Apnoea and cardiorespiratory depression.", 1], ["Hypertension.", 0], ["Anaphylaxis to vitamin B6 in most infants.", 0]],
+ "<h6>Why</h6><p>In pyridoxine-dependent epilepsy the first dose can cause apnoea and cardiorespiratory depression. Give it with EEG, monitoring and resuscitation ready. (Unit 11)</p>"),
+
+I("X17", 11,
+ "A child with seizures, alopecia, eczema-like rash and hearing loss has not responded to antiseizure drugs. Which test is most useful?",
+ [["Serum biotinidase activity.", 1], ["Serum ceruloplasmin.", 0], ["Plasma homocysteine.", 0], ["Sweat chloride.", 0]],
+ "<h6>Why</h6><p>Biotinidase deficiency causes seizures, alopecia, rash and hearing loss; oral biotin 5–10 mg/day treats it. (Units 11, 13)</p>"),
+
+I("X18", 12,
+ "A 9-year-old has dystonia that is mild in the morning and much worse by evening. What is the most useful next step?",
+ [["A supervised trial of low-dose levodopa, with specialist input.", 1], ["Immediate brain biopsy.", 0], ["Sodium benzoate.", 0], ["A fructose-free diet.", 0]],
+ "<h6>Why</h6><p>Diurnal fluctuation suggests dopa-responsive dystonia, which responds dramatically to low-dose levodopa. (Unit 12)</p>"),
+
+I("X19", 12,
+ "A child develops subacute encephalopathy with dystonia and basal ganglia changes after a fever. Which cheap treatment should be given early while tests are sent?",
+ [["Biotin and thiamine.", 1], ["IV lipid.", 0], ["Fructose.", 0], ["High-protein feeds.", 0]],
+ "<h6>Why</h6><p>Biotin–thiamine-responsive basal ganglia disease responds to early biotin and thiamine. Delay can leave permanent injury. (Unit 12)</p>"),
+
+I("X20", 13,
+ "What is the recommended target range for blood phenylalanine in children with PKU under current European and American guidelines?",
+ [["20–60 µmol/L.", 0], ["120–360 µmol/L.", 1], ["600–1200 µmol/L.", 0], ["Any value below 2000 µmol/L.", 0]],
+ "<h6>Why</h6><p>Both guidelines aim for 120–360 µmol/L in children. Too low risks growth failure; too high risks neurological harm. (Units 13, 18)</p>"),
+
+I("X21", 14,
+ "Exome sequencing finds two pathogenic variants in a recessive metabolic gene in a child whose biochemistry and phenotype match. What further step is most useful?",
+ [["Nothing; the diagnosis is complete.", 0], ["Test both parents to confirm the variants are on different copies (in trans).", 1], ["Repeat the exome.", 0], ["Ignore the result because it is genetic.", 0]],
+ "<h6>Why</h6><p>For a recessive disorder, both copies must be affected. Parental testing confirms the variants are in trans and informs recurrence counselling. (Units 14, 17)</p>"),
+
+I("X22", 15,
+ "An infant with regression and an exaggerated startle to sound has a cherry-red spot at the macula. Which group of disorders is most likely?",
+ [["Urea cycle disorders.", 0], ["Sphingolipidoses such as Tay–Sachs or Sandhoff disease.", 1], ["Fatty-acid oxidation disorders.", 0], ["Congenital disorders of glycosylation.", 0]],
+ "<h6>Why</h6><p>A cherry-red spot with regression and hyperacusis suggests GM2 gangliosidosis (Tay–Sachs, Sandhoff). A dilated fundus examination is part of assessing regression. (Units 13, 15)</p>"),
+
+I("X23", 15,
+ "Which treatment should be considered early in a young child with MPS I (Hurler syndrome)?",
+ [["Haematopoietic stem-cell transplantation.", 1], ["Ketogenic diet.", 0], ["Sodium benzoate.", 0], ["Nitisinone.", 0]],
+ "<h6>Why</h6><p>Early stem-cell transplantation, usually before about 2–2.5 years, can preserve cognition in Hurler syndrome; enzyme replacement treats somatic disease. (Units 15, 18)</p>"),
+
+I("X24", 16,
+ "In a child with suspected POLG-related mitochondrial disease and seizures, which drug is contraindicated?",
+ [["Levetiracetam.", 0], ["Sodium valproate.", 1], ["Clobazam.", 0], ["Lacosamide.", 0]],
+ "<h6>Why</h6><p>Valproate can precipitate fatal liver failure in POLG disease. (Units 11, 16)</p>"),
+
+I("X25", 16,
+ "Why might a blood test for a mitochondrial DNA variant be negative in a child who has the disease?",
+ [["Mitochondrial DNA is never inherited.", 0], ["Heteroplasmy varies between tissues, so blood may carry little of the variant.", 1], ["Blood contains no mitochondria.", 0], ["Mitochondrial disease is never genetic.", 0]],
+ "<h6>Why</h6><p>The proportion of altered mtDNA differs between tissues; muscle or urine may show a variant that blood misses. Most childhood mitochondrial disease is nuclear-encoded, so exome or genome testing is often used. (Units 16, 17)</p>"),
+
+I("X26", 17,
+ "A newborn screen is reported normal. At 3 weeks the baby has vomiting, lethargy and a large liver. What is correct?",
+ [["The screen excludes a metabolic disorder.", 0], ["The baby needs full assessment; screens have limited panels and false negatives.", 1], ["Repeat the screen and wait for the result.", 0], ["Reassure and review in a month.", 0]],
+ "<h6>Why</h6><p>No screen excludes every IEM. A symptomatic baby needs clinical assessment and first-line metabolic tests now. (Units 2, 17)</p>"),
+
+I("X27", 17,
+ "Both parents of a child with MSUD are confirmed carriers. What is the chance that their next child will be affected?",
+ [["1 in 2.", 0], ["1 in 4.", 1], ["1 in 8.", 0], ["It depends on the sex of the baby.", 0]],
+ "<h6>Why</h6><p>MSUD is autosomal recessive: each pregnancy has a 1-in-4 risk, whatever happened in earlier pregnancies. (Unit 17)</p>"),
+
+I("X28", 18,
+ "A child with a urea cycle disorder needs elective surgery. What is the key metabolic precaution?",
+ [["Normal pre-operative fasting without IV fluids.", 0], ["IV glucose from the start of the fast, with a plan agreed with the metabolic team.", 1], ["A high-protein meal before surgery.", 0], ["Stop all regular medicines for a week.", 0]],
+ "<h6>Why</h6><p>Fasting and surgical stress trigger catabolism. IV glucose from the start of the fast and continuation of scavengers prevent decompensation. (Units 4, 18)</p>"),
+
+I("X29", 19,
+ "A family asks you to guarantee that their child's enzyme replacement therapy will be paid for by the government. What is the best response?",
+ [["Guarantee full funding.", 0], ["Explain that support may be available through a Centre of Excellence under the National Policy for Rare Diseases, and refer them to confirm eligibility.", 1], ["Say there is no support available in India.", 0], ["Advise them to buy the drug privately.", 0]],
+ "<h6>Why</h6><p>The NPRD 2021 provides support for listed conditions through designated Centres of Excellence; eligibility and amounts must be confirmed there. (Units 15, 19)</p>"),
+
+I("X30", 20,
+ "In a boy with hyperammonaemia, very low citrulline and high urine orotic acid, what is the inheritance of the most likely disorder?",
+ [["Autosomal recessive.", 0], ["X-linked.", 1], ["Mitochondrial.", 0], ["Autosomal dominant.", 0]],
+ "<h6>Why</h6><p>Low citrulline with high orotic acid indicates OTC deficiency, which is X-linked; carrier females can be symptomatic. (Units 6, 17, 20)</p>")
+
+];
+})();
+</script>

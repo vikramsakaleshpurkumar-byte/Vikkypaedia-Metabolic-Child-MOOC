@@ -1,0 +1,41 @@
+{
+  "format": "vikkypaedia-completion-record",
+  "formatVersion": 1,
+  "module": {
+    "id": "metabolic",
+    "title": "The Metabolic Child",
+    "version": "3.0.0",
+    "build": "2026-09-24"
+  },
+  "learner": {
+    "name": "Dr Ananya Raghavan",
+    "institution": "District Hospital, Hassan",
+    "registration": "KMC 123456",
+    "email": "ananya@example.org",
+    "track": "Advanced",
+    "setting": "rc"
+  },
+  "enrolledAt": 1790246945983,
+  "issuedAt": 1790246950756,
+  "result": {
+    "unitsMastered": 20,
+    "unitsTotal": 20,
+    "checkpointsCorrect": 40,
+    "checkpointsTotal": 40,
+    "retentionUnits": 20,
+    "retentionRequired": 15,
+    "longestRetention": "2 days",
+    "bestScore": 96,
+    "cutScore": 80,
+    "attempts": 1,
+    "certified": true
+  },
+  "signatory": {
+    "name": "Dr Vikram Sakaleshpur Kumar",
+    "role": "Medical Educator"
+  },
+  "verificationCode": "MC26-0KRN-WGT",
+  "attestation": "Self-attested. Generated on the learner's own device from local progress data. Re-derivable, not tamper-proof: treat it as a signed statement by the learner, not as proof issued by a third party.",
+  "scope": "Not a specialist qualification. Confers no competence to manage inborn errors of metabolism independently, no licence and no clinical privilege.",
+  "checksum": "1UPLNUX"
+}
