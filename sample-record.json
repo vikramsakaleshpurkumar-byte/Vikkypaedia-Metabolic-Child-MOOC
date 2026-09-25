@@ -4,7 +4,7 @@
   "module": {
     "id": "metabolic",
     "title": "The Metabolic Child",
-    "version": "3.0.1",
+    "version": "3.0.2",
     "build": "2026-09-24"
   },
   "learner": {
@@ -15,8 +15,8 @@
     "track": "Advanced",
     "setting": "rc"
   },
-  "enrolledAt": 1790264068033,
-  "issuedAt": 1790264073555,
+  "enrolledAt": 1790267196787,
+  "issuedAt": 1790267204041,
   "result": {
     "unitsMastered": 20,
     "unitsTotal": 20,
@@ -34,10 +34,10 @@
     "name": "Dr Vikram Sakaleshpur Kumar",
     "role": "Medical Educator"
   },
-  "verificationCode": "MC26-0KHO-ARU",
+  "verificationCode": "MC26-0K7O-P2V",
   "attestation": "Self-attested. Generated on the learner's own device from local progress data. Re-derivable, not tamper-proof: treat it as a signed statement by the learner, not as proof issued by a third party.",
   "scope": "Not a specialist qualification. Confers no competence to manage inborn errors of metabolism independently, no licence and no clinical privilege.",
-  "checksum": "0NILX9K",
+  "checksum": "0V7X6YE",
   "detail": {
     "units": [
       {
@@ -337,7 +337,7 @@
     },
     "exam": [
       {
-        "at": 1790264072209,
+        "at": 1790267202732,
         "pct": 96,
         "n": 50,
         "timedOut": false,
@@ -345,7 +345,8 @@
         "miss": {}
       }
     ],
-    "studyDays": 0
+    "studyDays": 0,
+    "megacodes": null
   },
-  "detailChecksum": "0WMPEKU"
+  "detailChecksum": "0LIAK5V"
 }
